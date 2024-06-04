@@ -1,20 +1,8 @@
 {
-    "label" : "lock",
-    "action" : "loginctl lock-session",
-    "text" : "Lock",
-    "keybind" : "l"
-}
-{
-    "label" : "hibernate",
-    "action" : "systemctl hibernate",
-    "text" : "Hibernate",
-    "keybind" : "h"
-}
-{
     "label" : "logout",
-    "action" : "exit",
+    "action" : "hyprlock",
     "text" : "Logout",
-    "keybind" : "e"
+    "keybind" : "l"
 }
 {
     "label" : "shutdown",
